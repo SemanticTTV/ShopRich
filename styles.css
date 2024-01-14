@@ -5,13 +5,29 @@ body {
     background-color: #f4f4f4;
 }
 
+.button-container {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 h1 {
     color: #333;
+    margin-top: 20px;
 }
 
 div {
     background-color: #333;
-    padding: 10px;
 }
 
 a {
