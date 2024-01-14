@@ -21,10 +21,15 @@ body {
     border-radius: 5px;
     background-color: transparent;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
     background-color: #555;
+}
+
+.button:active {
+    background-color: #777; /* Color when clicked */
 }
 
 h1 {
@@ -41,3 +46,9 @@ a {
     margin-right: 10px;
     text-decoration: none;
 }
+
+a:hover {
+    color: #aaa;
+    text-decoration: underline;
+}
+
